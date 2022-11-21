@@ -1,0 +1,58 @@
+.news {
+
+    background: var(--news-background);
+
+    &__cards {
+        margin-top: 20px;
+
+        @include desktop {
+            margin-top: 40px;
+            padding-left: 0;
+        }
+    }
+
+    &__card {
+        width: 100%;
+        background: var(--color-white);
+        box-shadow: 0px 0px 20px rgba(68, 117, 242, 0.1);
+        border-radius: 8px;
+        margin: 10px 0;
+        // max-width: 500px;
+
+        // img {
+        //     width: 100%;
+        // }
+
+        &__banner {
+            width: 100%;
+            aspect-ratio: 413 / 236;
+
+
+            img {
+                border-radius: 8px 8px 0 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &__content {
+            width: 100%;
+            padding: 20px 24px 0 23px;
+            text-align: left;
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+
+    .more-link a {
+        margin-left: 23px;
+        // padding-bottom: 20px;
+
+        @include desktop {
+            padding-top: 20px;
+        }
+    }
+}

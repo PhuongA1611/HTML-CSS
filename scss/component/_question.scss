@@ -1,0 +1,79 @@
+
+
+.question {
+    background-image: url(../../assets/Rectangle65.png);
+    background-size: cover;
+
+    .side-image {
+        width: 80%;
+    }
+
+    &__content,
+    p,
+    h2 {
+        color: var(--color-white);
+
+        @include desktop {
+            text-align: left;
+        }
+    }
+
+    &__cards {
+        margin-top: 39px;
+    }
+
+    &__card {
+        width: 100%;
+        // height: 50px;
+        background: var(--color-white);
+        border-radius: 8px;
+        padding: 15px;
+        margin-top: 10px;
+
+        details {
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+    
+            h6 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                color: var(--text-color2);
+                width: 85%;
+            }
+    
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: var(--text-color2);
+                padding-top: 25px;
+            }
+
+            summary {
+                position: relative;
+                width: 100%;
+                display: inline-flex;
+    
+                .icon-down {
+                    background-image: url(../../assets/u_angle-down.png);
+                }
+            }
+
+            &[open] {
+                h6 {
+                    color: var(--link-color);
+                }
+
+                .icon-down {
+                    background-image: url(../../assets/u_angle-up.png);
+                }
+            }
+        }
+    }
+
+}

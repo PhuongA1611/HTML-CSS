@@ -1,0 +1,61 @@
+.about {
+    &__cards {
+        margin-top: 20px;
+        padding-left: 10px;
+
+        @include desktop {
+            margin-top: 40px;
+            padding-left: 0;
+        }
+    }
+    .swiper-about {
+        overflow-x: hidden;
+    }
+
+    .swiper-wrapper {
+        padding: 20px 0;
+    }
+
+    .swiper-slide {
+        width: auto;
+    }
+
+    &__card {
+        width: 265px;
+        padding: 43px 17px 0px 17px;
+        background: var(--color-white);
+        box-shadow: 0px 0px 20px rgba(68, 117, 242, 0.1);
+        border-radius: 8px;
+        text-align: center;
+
+        @include desktop {
+            width: 100%;
+        }
+
+        &__content {
+            height: 340px;
+            img {
+                width: auto;
+                height: 40px;
+                
+                @include desktop {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        h5 {
+            padding-bottom: 10px;
+        }
+
+        .more-link {
+            a {
+                justify-content: center;
+            }
+        }
+
+        @include desktop {
+            height: 430px;
+        }
+    }
+}
