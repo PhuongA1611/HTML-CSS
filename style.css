@@ -364,6 +364,12 @@ h6 {
   }
 }
 
+.main-button:hover {
+  color: var(--highlight-color);
+  background: var(--color-white);
+  border: 1px solid var(--highlight-color);
+}
+
 .menu-icon {
   width: 20px;
   height: 100%;
@@ -449,6 +455,10 @@ h6 {
   margin-bottom: 10px;
 }
 
+.card-content-style h5:hover {
+  color: var(--highlight-color);
+}
+
 .card-content-style p {
   font-weight: 400;
   font-size: 12px;
@@ -515,6 +525,10 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.more-link a:hover {
+  color: var(--highlight-color);
 }
 
 .more-link a::after {
@@ -927,6 +941,12 @@ h6 {
   }
 }
 
+.main-button:hover {
+  color: var(--highlight-color);
+  background: var(--color-white);
+  border: 1px solid var(--highlight-color);
+}
+
 .menu-icon {
   width: 20px;
   height: 100%;
@@ -1012,6 +1032,10 @@ h6 {
   margin-bottom: 10px;
 }
 
+.card-content-style h5:hover {
+  color: var(--highlight-color);
+}
+
 .card-content-style p {
   font-weight: 400;
   font-size: 12px;
@@ -1078,6 +1102,10 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.more-link a:hover {
+  color: var(--highlight-color);
 }
 
 .more-link a::after {

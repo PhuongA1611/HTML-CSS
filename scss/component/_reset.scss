@@ -343,6 +343,11 @@ h6 {
   @include desktop-none {
     margin: auto;
   }
+  &:hover{
+    color: var(--highlight-color);
+    background: var(--color-white);
+    border: 1px solid var(--highlight-color);
+  }
 }
 .menu-icon{
   width: 20px;
@@ -426,6 +431,9 @@ h6 {
     line-height: 20px;
     color: var(--text-color);
     margin-bottom: 10px;
+    &:hover{
+      color: var(--highlight-color);
+    }
   }
 
   p {
@@ -489,6 +497,9 @@ h6 {
     padding-bottom: 37px;
     display: flex;
     align-items: center;
+    &:hover{
+      color: var(--highlight-color);
+    }
 
     &::after {
       content: '';
